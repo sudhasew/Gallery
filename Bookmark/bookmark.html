@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="fetchBookmarks()">
+    <form id="form-container">
+      <h1 class="bookmark">Bookmark Your Favorite Sites</h1>
+
+      <label>Site Name</label>
+      <input id="siteName" type="text" placeholder="Website Name" />
+
+      <label>Site URL</label>
+      <input id="siteUrl" type="text" placeholder="Website URL" />
+
+      <button id="submit" type="submit">Submit</button>
+    </form>
+
+    <div id="bookmarksResults"></div>
+
+    <footer class="footer">© 2023 Sudha's Bookmarker.</footer>
+    <script src="bookmark.js"></script>
+  </body>
+</html>
